@@ -1,9 +1,14 @@
 :root {
-    --primary-color: #1e293b;
+    --color-sidebar: #1e293b;
+    --color-letras-dentro-sidebar: #ffffff; 
+
 }
 body {display: flex; flex-direction: row;}
 
 aside {width: 240px;
-    background-color: var(--primary-color);
-    min-height: 100vh;}
-    
+    background-color: var(--color-sidebar);
+    min-height: 100vh;
+    a {
+        color: var(--color-letras-dentro-sidebar);
+    }
+}
