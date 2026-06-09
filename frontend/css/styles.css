@@ -1,9 +1,14 @@
 :root {
+    --color-body: #f1f5f9;
     --color-sidebar: #1e293b;
-    --color-letras-dentro-sidebar: #ffffff; 
+    --color-letras-dentro-sidebar: #ffffff;
+    --color-fondo-article: #ffffff;
 
 }
-body {display: flex; flex-direction: row;}
+body {display: flex; 
+    flex-direction: row;
+    background-color: var(--color-body);
+}
 
 aside {width: 240px;
     background-color: var(--color-sidebar);
@@ -14,4 +19,8 @@ aside {width: 240px;
 }
 .metrics{display: grid; 
     grid-template-columns: repeat(3,1fr);
+    article {
+        background-color: var(--color-fondo-article);
+        padding: 16px;
+    }
 }
