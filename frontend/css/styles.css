@@ -15,6 +15,7 @@ aside {width: 240px;
     min-height: 100vh;
     a {
         color: var(--color-letras-dentro-sidebar);
+        text-decoration: none;
     }
 }
 .metrics{display: grid; 
