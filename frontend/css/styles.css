@@ -12,3 +12,6 @@ aside {width: 240px;
         color: var(--color-letras-dentro-sidebar);
     }
 }
+.metrics{display: grid; 
+    grid-template-columns: repeat(3,1fr);
+}
