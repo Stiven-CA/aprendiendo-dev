@@ -1,0 +1,28 @@
+:root {
+    --color-body: #f1f5f9;
+    --color-sidebar: #1e293b;
+    --color-letras-dentro-sidebar: #ffffff;
+    --color-fondo-article: #ffffff;
+
+}
+body {display: flex; 
+    flex-direction: row;
+    background-color: var(--color-body);
+    margin: 0px}
+
+aside {width: 240px;
+    background-color: var(--color-sidebar);
+    min-height: 100vh;
+    a {
+        color: var(--color-letras-dentro-sidebar);
+        text-decoration: none;
+    }
+}
+.metrics{display: grid; 
+    grid-template-columns: repeat(3,1fr);
+    gap: 16px;
+    article {
+        background-color: var(--color-fondo-article);
+        padding: 16px;
+    }
+}
